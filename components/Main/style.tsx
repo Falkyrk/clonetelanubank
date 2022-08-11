@@ -39,6 +39,22 @@ export const styles = StyleSheet.create({
         padding:10,
         backgroundColor:"silver",
         borderRadius:10
+    },
+    descubra:{
+        backgroundColor:"silver",
+        borderRadius:20,
+        padding:20,
+        margin:10,
+        width:300,
+    },
+    btndescubra:{
+        backgroundColor:"#5f249f",
+        padding:10,
+        borderRadius:100,
+        color:"#fff",
+        textAlign:"center",
+        marginTop:20,
+        width:100
     }
 
 })

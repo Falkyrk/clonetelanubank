@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 import Header from './components/Header';
 import Main from './components/Main';
 
@@ -7,11 +7,17 @@ import Main from './components/Main';
 export default function App() {
   return (
 
-    <View>
+    <ScrollView horizontal={false}>
+
+    <View style={{height:1600}}>
+      
       <Header />
       <Main/>
+      
       <StatusBar style="auto" />
+      
     </View>
+    </ScrollView>
     
   );
 }
